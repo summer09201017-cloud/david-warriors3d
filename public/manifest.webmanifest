@@ -1,0 +1,24 @@
+{
+  "name": "大衛的勇士們 3D",
+  "short_name": "大衛勇士",
+  "description": "撒母耳記下 23 章——選一位大衛的勇士,在紅豆田迎戰非利士勇士;八般武器、蓄力大招、格擋盾反,得勝的榮耀歸耶和華。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#09131d",
+  "theme_color": "#0d1f2b",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
