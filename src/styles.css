@@ -703,7 +703,7 @@ button.active {
 .commentary-bar {
   position: fixed;
   left: 50%;
-  top: 72px;
+  top: 96px;
   transform: translateX(-50%);
   max-width: min(86vw, 640px);
   padding: 8px 18px;
@@ -754,3 +754,6 @@ button.active {
   .weapon-bar { bottom: 128px; gap: 4px; }
   .weapon-chip { padding: 5px 7px; font-size: 12px; }
 }
+
+/* 防疫(07-19 批次):殼層面板 display:flex 會蓋過 UA 的 [hidden]{display:none} */
+[hidden] { display: none !important; }
